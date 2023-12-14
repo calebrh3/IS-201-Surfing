@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Surfing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Welcome to My Surfing Page!</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#hobby-section">About My Hobby</a></li>
+                <li><a href="professional-page.html">Professional Page</a></li>
+            </ul>
+        </nav>
+
+        <div id="hobby-section">
+            <h2>Why I Love Surfing</h2>
+            <p>Surfing will change your life. Once you get tubed you never lose. It will take you to incredible destinations.</p>
+
+            <ol>
+                <li>First Main Point
+                    <ul>
+                        <li>Sub Point 1</li>
+                        <li>Sub Point 2</li>
+                    </ul>
+                </li>
+                <li>Second Main Point
+                    <ul>
+                        <li>Sub Point 1</li>
+                        <li>Sub Point 2</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <img src="https://media.istockphoto.com/id/186123880/photo/close-up-of-a-surfer-riding-a-large-blue-wave.jpg?s=612x612&w=0&k=20&c=n9EYTgDDeF_RO7TmHG9TlBGrnAXjEML5rB_ql5xFtp0=" alt="Image related to your hobby">
+
+            <h3>Watch this video about Surfing</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/https://www.youtube.com/watch?v=j-oKw8xJxB0" frameborder="0" allowfullscreen></iframe>
+
+            <h3>Interesting Facts</h3>
+            <p><a href="#top">Back to Top</a></p>
+        </div>
+
+        <div id="tableau-graph">
+            <h2>Tableau Graph</h2>
+            <p>https://www.tableau.com/sites/default/files/media/which_chart_v6_final_0.pdf</p>
+
+        </div>
+    </div>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Custom background color */
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Adding a subtle shadow for depth */
+}
+
+h1, h2, h3 {
+    color: #333; /* Font color */
+    margin-bottom: 10px; /* Spacing under headings */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0; /* Removes default padding */
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+/* Custom styles for divs */
+.div-style-1 {
+    background-color: #e7f3fe; /* Light blue background */
+    border: 1px solid #bde0fe; /* Matching border */
+    padding: 10px; /* Padding inside the div */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.div-style-2 {
+    background-color: #fff4e6; /* Light orange background */
+    border: 1px solid #ffebcc; /* Matching border */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.div-style-3 {
+    background-color: #e6f4ea; /* Light green background */
+    border: 1px solid #cdecd5; /* Matching border */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Additional styling */
+a {
+    color: #007bff; /* Hyperlink color */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
